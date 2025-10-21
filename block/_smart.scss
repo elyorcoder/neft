@@ -1,0 +1,90 @@
+.smart {
+  width: 1400px;
+  display: flex;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: center;
+}
+.mini-smart {
+    border: 5px dashed;
+    border-radius: 50px;
+  width: 70%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+.p4 {
+  /* Мы предоставляем АЗС с комплектом разрешительной документации. У нас есть решение для любого объема потребления */
+  width: 710px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #5b5b5b;
+}
+.papa {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.img2 {
+  width: 250px;
+  height: 150px;
+}
+.p5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+.p6 {
+  width: 230px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+
+  color: #5b5b5b;
+}
+.button {
+  box-sizing: border-box;
+  width: 330px;
+  height: 40px;
+  border: 2px solid #dba833;
+  border-radius: 5px;
+  background-color: transparent;
+  /* Заказать Мини АЗС */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #dba833;
+}

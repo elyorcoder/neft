@@ -1,0 +1,75 @@
+.par {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+  text-align: center;
+}
+.news {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex-direction: column;
+}
+.father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.son {
+  width: 310px;
+  height: 430px;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+.holf {
+  width: 310px;
+  height: 190px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+.par1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.holf2 {
+  padding: 20px;
+}
+.par2 {
+  width: 270px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #5b5b5b;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+

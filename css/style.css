@@ -1,0 +1,573 @@
+@charset "UTF-8";
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 900px;
+  background: url(../img/Rectangle1.png), url(../img/Rectangle2.png), url(../img/location.png), url(../img/Rectangle3.png), url(../img/intro.png);
+  background-size: 100% 259px, 1200px 800px, 1000px 700px, 100% 340px, cover;
+  background-repeat: no-repeat;
+  background-position: center top, center center, center center, center bottom, top;
+}
+
+span {
+  color: #dba833;
+}
+
+nav {
+  width: 1400px;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.img1 {
+  width: 100px;
+  height: 78px;
+}
+
+a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.words {
+  border-top: 3px dashed gray;
+  border-bottom: 3px dashed gray;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 50px;
+}
+
+.burger {
+  display: none;
+  gap: 3px;
+  width: 22px;
+  height: 15px;
+  flex-direction: column;
+}
+.burger .item {
+  width: 22px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: black;
+}
+
+@media only screen and (max-width: 500px) {
+  .burger {
+    display: flex !important;
+  }
+  .words {
+    display: none !important;
+  }
+}
+.intro {
+  width: 1400px;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h1 {
+  /* Поставка нефтепродуктов в Москве и Московской области */
+  position: relative;
+  width: 800px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 77px;
+  text-align: center;
+  color: #fff;
+  margin: 0%;
+  padding: 0%;
+}
+
+.p {
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  color: #CECECE;
+}
+
+.btn {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  background: #DBA833;
+  border-radius: 5px;
+  /* Заказать звонок */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  color: #FFFFFF;
+}
+
+.h2 {
+  margin-top: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-item {
+  background: url(../img/j.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  height: auto;
+}
+
+.mini-item {
+  display: flex;
+  width: 50%;
+  height: 700px;
+  justify-content: end;
+  align-items: end;
+}
+
+.mini-item2 {
+  display: flex;
+  width: 50%;
+  height: 700px;
+  justify-content: start;
+  align-items: start;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(44, 44, 44, 0.8);
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.list2 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 51%;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(44, 44, 44, 0.8);
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  gap: 10px;
+}
+
+.p2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.p3 {
+  width: 270px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #cecece;
+}
+
+.dop-wrapper {
+  background: url(../img/a.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.dop {
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.empty {
+  width: 50%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.list3 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(44, 44, 44, 0.8);
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  gap: 10px;
+}
+
+.smart {
+  width: 1400px;
+  display: flex;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-smart {
+  border: 5px dashed;
+  border-radius: 50px;
+  width: 70%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.p4 {
+  /* Мы предоставляем АЗС с комплектом разрешительной документации. У нас есть решение для любого объема потребления */
+  width: 710px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #5b5b5b;
+}
+
+.papa {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.img2 {
+  width: 250px;
+  height: 150px;
+}
+
+.p5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.p6 {
+  width: 230px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  color: #5b5b5b;
+}
+
+.button {
+  box-sizing: border-box;
+  width: 330px;
+  height: 40px;
+  border: 2px solid #dba833;
+  border-radius: 5px;
+  background-color: transparent;
+  /* Заказать Мини АЗС */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #dba833;
+}
+
+.avtor {
+  width: 1400px;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.helper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.h5 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #000000;
+}
+
+.p7 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  color: #5B5B5B;
+}
+
+.img3 {
+  width: 170px;
+  height: 50px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin: 100px auto;
+  width: 1000px;
+  height: auto !important;
+  border: 5px dashed #dba833;
+  border-radius: 100px;
+  padding: 20px;
+  background-color: #F8F8F8;
+}
+
+.p8 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.img5 {
+  width: 200px;
+  height: 300px;
+}
+
+.p9 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.p10 {
+  width: 500px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5b5b5b;
+}
+
+.com {
+  background-color: white;
+  display: flex;
+  width: 800px;
+  height: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+  border-radius: 50px;
+}
+
+.comets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+}
+
+.h6 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.map {
+  width: 1000px;
+  height: 500px;
+}
+
+.par {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  /* identical to box height */
+  text-align: center;
+}
+
+.news {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex-direction: column;
+}
+
+.father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.son {
+  width: 310px;
+  height: 430px;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+
+.holf {
+  width: 310px;
+  height: 190px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.par1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #000000;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.holf2 {
+  padding: 20px;
+}
+
+.par2 {
+  width: 270px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5b5b5b;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}/*# sourceMappingURL=style.css.map */

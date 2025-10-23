@@ -15,6 +15,7 @@ a {
   background-size: 100% 259px, 1200px 800px, 1000px 700px, 100% 340px, cover;
   background-repeat: no-repeat;
   background-position: center top, center center, center center, center bottom, top;
+  background-attachment: fixed;
 }
 
 span {
@@ -44,6 +45,9 @@ a {
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
+}
+a:hover {
+  color: #DBA833;
 }
 
 .words {
@@ -111,14 +115,14 @@ a {
   line-height: 29px;
   /* identical to box height */
   text-align: center;
-  color: #CECECE;
+  color: #cecece;
 }
 
 .btn {
   position: relative;
   width: 200px;
   height: 40px;
-  background: #DBA833;
+  background: #dba833;
   border-radius: 5px;
   /* Заказать звонок */
   font-family: "Inter";
@@ -128,7 +132,7 @@ a {
   line-height: 24px;
   text-align: center;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .h2 {
@@ -140,7 +144,7 @@ a {
   line-height: 58px;
   /* identical to box height */
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .add {
@@ -155,6 +159,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  background-attachment: fixed;
 }
 
 .item {
@@ -238,6 +243,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  background-attachment: fixed;
 }
 
 .dop {
@@ -506,12 +512,13 @@ a {
 
 .news {
   width: 1400px;
-  margin: auto;
+  margin: 0 auto 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: auto;
   flex-direction: column;
+  gap: 40px;
 }
 
 .father {
@@ -597,4 +604,263 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.wrapper-about {
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/image12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1400px;
+  height: 400px;
+  margin: auto;
+}
+
+.text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.in {
+  /* Rectangle 26 */
+  box-sizing: border-box;
+  width: 350px;
+  height: 44px;
+  background: rgba(30, 30, 30, 0.7);
+  border: 1px solid #ffffff;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5px;
+  /* Телефон */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.in-btn {
+  /* Rectangle 52 */
+  box-sizing: border-box;
+  width: 300px;
+  height: 44px;
+  background: #ffffff;
+  border: 2px solid #dba833;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5px;
+  /* Отправить */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #dba833;
+}
+
+form {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dop1 {
+  width: 1040px;
+  display: flex;
+  justify-content: end;
+}
+
+.min {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.wrapper-comand {
+  width: 100%;
+  height: 700px;
+  background: #1f1f1f;
+}
+
+.comand {
+  width: 1400px;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.n {
+  color: #fff !important;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.oleg {
+  width: 350px;
+  height: 400px;
+}
+
+.min1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height */
+  text-align: center;
+  color: #dba833;
+}
+
+.min2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.min3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+  text-align: center;
+  color: #b9b9b9;
+}
+
+.footer {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto 30px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.min6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #b6b6b6;
+}
+
+.min4 {
+  width: 320px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #dba833;
+}
+
+.min5 {
+  width: 174px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #5b5b5b;
+}
+
+.asd {
+  flex-direction: column;
+  border: 3px solid gray;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  height: 84px;
+  border-top: 5px dashed gray;
+  margin: auto;
+}
+
+.min7 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5b5b5b;
+}
+
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.min8 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.min-help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }/*# sourceMappingURL=style.css.map */

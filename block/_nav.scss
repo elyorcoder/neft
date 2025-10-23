@@ -20,6 +20,9 @@ a {
   line-height: 18px;
 
   color: #ffffff;
+  &:hover{
+    color: #DBA833;
+  }
 }
 .words {
   border-top: 3px dashed gray;

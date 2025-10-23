@@ -20,8 +20,8 @@ a {
   line-height: 18px;
 
   color: #ffffff;
-  &:hover{
-    color: #DBA833;
+  &:hover {
+    color: #dba833;
   }
 }
 .words {
@@ -34,23 +34,28 @@ a {
 }
 .burger {
   display: none;
-  gap: 3px;
+  gap: 5px;
   width: 22px;
   height: 15px;
   flex-direction: column;
   .item {
     width: 22px;
-    height: 3px;
+    height: 10px;
     border-radius: 3px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
   }
 }
 
-@media only screen and (max-width:500px){
-    .burger{
-        display: flex !important;
-    }
-    .words{
-        display: none !important;
-    }
+@media only screen and (max-width: 500px) {
+  .burger {
+    display: flex !important;
+  }
+  .words {
+    display: none !important;
+  }
+  nav{
+    width: 100% !important;
+    justify-content: space-around !important;
+
+  }
 }

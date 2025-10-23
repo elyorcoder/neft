@@ -59,3 +59,21 @@
 
   color: #b9b9b9;
 }
+@media only screen and (max-width:500px){
+  .comand{
+    width: 100%;
+  }
+  .oleg{
+    width: 90%;
+    height: 380px;
+  }
+  .min1{
+    font-size: 26px;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .wrapper-comand{
+    height: auto;
+  }
+}

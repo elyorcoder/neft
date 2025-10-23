@@ -102,3 +102,17 @@
   order: 0;
   flex-grow: 0;
 }
+@media only screen and (max-width:500px){
+  .son1{
+    display: none;
+  }
+  .news{
+    width: 100%;
+  }
+  .par{
+    font-size: 30px;
+  }
+  .btn1{
+    width: 90% !important;
+  }
+}

@@ -15,6 +15,14 @@ a {
   background-position: center top, center center, center center, center bottom,top;
   background-attachment: fixed;
 }
-span {
+span { 
   color: #dba833;
+}
+@media only screen and (max-width:500px){
+  .wrapper{
+    height: auto;
+    background-size:  100% 259px, 90% 390px, 0px 0px, 100% 200px, cover !important;
+    background-attachment: none !important;
+    width: 100% !important;
+  }
 }

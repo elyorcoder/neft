@@ -69,3 +69,20 @@
   align-items: center;
   flex-direction: column;
 }
+@media only screen and (max-width:500px){
+  .intro{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+  .br{
+    display: none !important;
+  }
+  .h1{
+    width: 300px;
+    font-size: 40px;
+  }
+  .p{
+    font-size: 16px;
+  }
+}

@@ -77,6 +77,12 @@
   align-items: center;
   gap: 40px;
 }
+.help1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
 .min8 {
   font-family: "Inter";
   font-style: normal;
@@ -91,4 +97,27 @@
   justify-content: center;
   align-items: center;
   gap: 25px;
+}
+@media only screen and (max-width: 500px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .help {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .min4{
+    width: 280px;
+  }
+  .asd{
+    margin-top: 10px;
+    gap: 5px;
+    width: 90%;
+    height:70px;
+  }
 }

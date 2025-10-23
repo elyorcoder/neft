@@ -22,6 +22,14 @@ span {
   color: #dba833;
 }
 
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    height: auto;
+    background-size: 100% 259px, 90% 390px, 0px 0px, 100% 200px, cover !important;
+    background-attachment: none !important;
+    width: 100% !important;
+  }
+}
 nav {
   width: 1400px;
   height: 80px;
@@ -47,7 +55,7 @@ a {
   color: #ffffff;
 }
 a:hover {
-  color: #DBA833;
+  color: #dba833;
 }
 
 .words {
@@ -61,16 +69,16 @@ a:hover {
 
 .burger {
   display: none;
-  gap: 3px;
+  gap: 5px;
   width: 22px;
   height: 15px;
   flex-direction: column;
 }
 .burger .item {
   width: 22px;
-  height: 3px;
+  height: 10px;
   border-radius: 3px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 500px) {
@@ -79,6 +87,10 @@ a:hover {
   }
   .words {
     display: none !important;
+  }
+  nav {
+    width: 100% !important;
+    justify-content: space-around !important;
   }
 }
 .intro {
@@ -154,6 +166,23 @@ a:hover {
   flex-direction: column;
 }
 
+@media only screen and (max-width: 500px) {
+  .intro {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+  .br {
+    display: none !important;
+  }
+  .h1 {
+    width: 300px;
+    font-size: 40px;
+  }
+  .p {
+    font-size: 16px;
+  }
+}
 .wrapper-item {
   background: url(../img/j.png);
   background-repeat: no-repeat;
@@ -262,6 +291,14 @@ a:hover {
   justify-content: start;
 }
 
+.empty1 {
+  width: 50%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
 .list3 {
   display: flex;
   align-items: center;
@@ -277,6 +314,62 @@ a:hover {
   gap: 10px;
 }
 
+@media only screen and (max-width: 500px) {
+  .item {
+    width: 100%;
+    flex-direction: column;
+  }
+  .wrapper-item {
+    background-position: top center;
+  }
+  .mini-item {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+  }
+  .mini-item2 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+  }
+  .pp {
+    font-size: 16px;
+  }
+  .list {
+    width: 90%;
+    height: 70%;
+    border-radius: 30px;
+  }
+  .list2 {
+    width: 90%;
+    height: 70%;
+    border-radius: 30px;
+  }
+  .list3 {
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+  }
+  .dop-wrapper {
+    background-position: top center;
+  }
+  .dop {
+    width: 100%;
+    text-align: center;
+  }
+  .empty {
+    display: none;
+  }
+  .empty1 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .smart {
   width: 1400px;
   display: flex;
@@ -371,6 +464,30 @@ a:hover {
   color: #dba833;
 }
 
+@media only screen and (max-width: 500px) {
+  .smart {
+    width: 100%;
+  }
+  .mini-smart {
+    padding: 20px 0;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .h4 {
+    width: 310px;
+    font-size: 30px;
+  }
+  .p4 {
+    width: 280px;
+  }
+  .papa {
+    flex-direction: column;
+  }
+  .button {
+    width: 90%;
+  }
+}
 .avtor {
   width: 1400px;
   margin: 100px auto 0;
@@ -408,11 +525,36 @@ a:hover {
   color: #5B5B5B;
 }
 
+.img4 {
+  width: 120px;
+  height: 70px;
+}
+
 .img3 {
   width: 170px;
   height: 50px;
 }
 
+@media only screen and (max-width: 500px) {
+  .avtor {
+    width: 100%;
+  }
+  .helper {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .h5 {
+    font-size: 30px;
+  }
+  .img3 {
+    width: 90%;
+    height: 100px;
+  }
+  .img4 {
+    width: 70%;
+    height: 100px;
+  }
+}
 .map {
   display: flex;
   justify-content: center;
@@ -425,7 +567,7 @@ a:hover {
   border: 5px dashed #dba833;
   border-radius: 100px;
   padding: 20px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .p8 {
@@ -473,6 +615,30 @@ a:hover {
   border-radius: 50px;
 }
 
+@media only screen and (max-width: 500px) {
+  .map {
+    width: 95%;
+    padding: 440px 0 440px 0;
+    border-radius: 20px;
+  }
+  .p8 {
+    font-size: 30px;
+  }
+  .img5 {
+    display: none;
+  }
+  .com {
+    text-align: center;
+    width: 95%;
+    height: auto;
+  }
+  .p10 {
+    width: auto;
+  }
+  .p9 {
+    font-size: 28px;
+  }
+}
 .comets {
   display: flex;
   justify-content: center;
@@ -500,6 +666,28 @@ a:hover {
   height: 500px;
 }
 
+.abs {
+  width: 1000px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+  .comets {
+    width: 95% !important;
+    height: 250px !important;
+  }
+  .abs {
+    width: 95%;
+    height: 250px;
+  }
+  .h6 {
+    font-size: 30px !important;
+  }
+  .map {
+    width: 95% !important;
+    height: 250px !important;
+  }
+}
 .par {
   font-family: "Rubik";
   font-style: normal;
@@ -606,6 +794,20 @@ a:hover {
   flex-grow: 0;
 }
 
+@media only screen and (max-width: 500px) {
+  .son1 {
+    display: none;
+  }
+  .news {
+    width: 100%;
+  }
+  .par {
+    font-size: 30px;
+  }
+  .btn1 {
+    width: 90% !important;
+  }
+}
 .wrapper-about {
   width: 100%;
   height: 400px;
@@ -698,6 +900,34 @@ form {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 500px) {
+  .about {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+  }
+  .wrapper-about {
+    height: auto;
+    min-height: 400px;
+  }
+  .text {
+    font-size: 30px;
+  }
+  form {
+    flex-direction: column;
+  }
+  .dop1 {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+  .in-btn {
+    width: 350px;
+  }
+  .min {
+    font-size: 14px;
+  }
+}
 .wrapper-comand {
   width: 100%;
   height: 700px;
@@ -762,6 +992,28 @@ form {
   /* identical to box height */
   text-align: center;
   color: #b9b9b9;
+}
+
+@media only screen and (max-width: 500px) {
+  .comand {
+    width: 100%;
+  }
+  .oleg {
+    width: 90%;
+    height: 380px;
+  }
+  .min1 {
+    font-size: 26px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .wrapper-comand {
+    height: auto;
+  }
+}
+.niga {
+  height: 300px;
 }
 
 .footer {
@@ -849,6 +1101,13 @@ form {
   gap: 40px;
 }
 
+.help1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
 .min8 {
   font-family: "Inter";
   font-style: normal;
@@ -863,4 +1122,28 @@ form {
   justify-content: center;
   align-items: center;
   gap: 25px;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .help {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .min4 {
+    width: 280px;
+  }
+  .asd {
+    margin-top: 10px;
+    gap: 5px;
+    width: 90%;
+    height: 70px;
+  }
 }/*# sourceMappingURL=style.css.map */

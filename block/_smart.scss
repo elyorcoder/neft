@@ -6,8 +6,8 @@
   justify-content: center;
 }
 .mini-smart {
-    border: 5px dashed;
-    border-radius: 50px;
+  border: 5px dashed;
+  border-radius: 50px;
   width: 70%;
   height: 600px;
   display: flex;
@@ -87,4 +87,28 @@
   text-align: center;
 
   color: #dba833;
+}
+@media only screen and (max-width: 500px) {
+  .smart {
+    width: 100%;
+  }
+  .mini-smart{
+    padding: 20px 0;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .h4{
+    width: 310px;
+    font-size: 30px;
+  }
+  .p4{
+    width: 280px;
+  }
+  .papa{
+    flex-direction: column;
+  }
+  .button{
+    width: 90%;
+  }
 }

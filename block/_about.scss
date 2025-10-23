@@ -86,3 +86,31 @@ form {
 
   color: #ffffff;
 }
+@media only screen and (max-width: 500px) {
+  .about{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+  }
+  .wrapper-about{
+    height: auto;
+    min-height: 400px;
+  }
+  .text{
+    font-size: 30px;
+  }
+  form{
+    flex-direction: column;
+  }
+  .dop1{
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+  .in-btn{
+    width: 350px;
+  }
+  .min{
+    font-size: 14px;
+  }
+}

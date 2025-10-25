@@ -1,0 +1,63 @@
+.avtor {
+  width: 1400px;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.helper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.h5 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+
+  color: #000000;
+}
+.p7 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #5b5b5b;
+}
+.img4 {
+  width: 120px;
+  height: 70px;
+}
+.img3 {
+  width: 170px;
+  height: 50px;
+}
+@media only screen and (max-width: 500px) {
+  .avtor {
+    width: 100%;
+  }
+  .helper {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .h5 {
+    font-size: 30px;
+  }
+  .img3 {
+    width: 90%;
+    height: 100px;
+  }
+  .img4 {
+    width: 70%;
+    height: 100px;
+  }
+}

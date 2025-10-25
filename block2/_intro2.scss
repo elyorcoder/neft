@@ -1,0 +1,142 @@
+.intro {
+  width: 1400px;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.h1 {
+  /* Поставка нефтепродуктов в Москве и Московской области */
+  position: relative;
+  width: 800px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 77px;
+  text-align: center;
+
+  color: #fff;
+
+  margin: 0%;
+  padding: 0%;
+}
+.p {
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #cecece;
+}
+.btn {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  background: #dba833;
+  border-radius: 5px;
+  /* Заказать звонок */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+}
+.h2 {
+  margin-top: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.buttons-btn1 {
+  width: 338px;
+  height: 49px;
+  background: #242424;
+  border: 2px dashed #dba833;
+  /* Оптовые цены */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #dba833;
+}
+.buttons-btn2 {
+  width: 235px;
+  height: 49px;
+  background: #242424;
+  border: 2px dashed #dba833;
+  /* Оптовые цены */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #dba833;
+}
+.buttons-btn {
+  width: 191px;
+  height: 49px;
+  background: #242424;
+  border: 2px dashed #dba833;
+  /* Оптовые цены */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #dba833;
+}
+@media only screen and (max-width: 500px) {
+  .intro {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+  .br {
+    display: none !important;
+  }
+  .h1 {
+    width: 300px;
+    font-size: 40px;
+  }
+  .p {
+    font-size: 16px;
+  }
+  .buttons{
+    flex-direction: column;
+  }
+}

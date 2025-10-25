@@ -1,0 +1,123 @@
+.footer {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto 30px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.min6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #b6b6b6;
+}
+.min4 {
+  width: 320px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #dba833;
+}
+.min5 {
+  width: 174px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #5b5b5b;
+}
+.asd {
+  flex-direction: column;
+  border: 3px solid gray;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  height: 84px;
+  border-top: 5px dashed gray;
+  margin: auto;
+}
+.min7 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #5b5b5b;
+}
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.help1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.min8 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.min-help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+@media only screen and (max-width: 500px) {
+  .footer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .help {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .min4 {
+    width: 250px;
+  }
+  .asd {
+    margin-top: 10px;
+    gap: 5px;
+    width: 90%;
+    height: 70px;
+  }
+}

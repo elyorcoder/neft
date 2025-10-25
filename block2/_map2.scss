@@ -1,0 +1,48 @@
+.comets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+}
+.h6{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 57px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+}
+.map{
+    width: 1000px;
+    height: 500px;
+}
+.abs{
+    width: 1000px;
+    height: 500px;
+}
+@media only screen and (max-width:500px){
+  .comets{
+    width: 95% !important;
+    height: 250px !important;
+  }
+  .abs{
+    width: 95%;
+    height: 250px;
+  }
+  .h6{
+    font-size: 30px !important;
+  }
+  .map{
+    width: 95% !important;
+    height: 250px !important;
+  }
+}

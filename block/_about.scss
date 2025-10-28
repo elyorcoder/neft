@@ -1,116 +1,108 @@
-.wrapper-about {
-  width: 100%;
-  height: 400px;
-  background-image: url(../img/image12.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-}
-.about {
+.wrapper-3 {
+  width: 1400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1400px;
-  height: 400px;
-  margin: auto;
+  position: relative;
+  margin: 200px auto 0;
 }
-.text {
+.form-div {
+  top: 100px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+  height: 250px;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  box-shadow: 0px 7px 51px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.form-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  /* or 125% */
+
+  color: #90e051;
+}
+.in {
+  border: 1px solid #90e051;
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+  color: #90e051;
+  /* Enter your mail */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #90e051;
+}
+.sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #90e051;
+  width: 170px;
+  height: 54px;
+  border: none;
+  color: #fff;
+  /* Enter your mail */
   font-family: "Rubik";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 43px;
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.in {
-  /* Rectangle 26 */
-
-  box-sizing: border-box;
-  width: 350px;
-  height: 44px;
-  background: rgba(30, 30, 30, 0.7);
-  border: 1px solid #ffffff;
-  backdrop-filter: blur(2px);
-  /* Note: backdrop-filter has minimal browser support */
-  border-radius: 5px;
-  /* Телефон */
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #ffffff;
-}
-.in-btn {
-  /* Rectangle 52 */
-
-  box-sizing: border-box;
-  width: 300px;
-  height: 44px;
-  background: #ffffff;
-  border: 2px solid #dba833;
-  backdrop-filter: blur(2px);
-  /* Note: backdrop-filter has minimal browser support */
-  border-radius: 5px;
-  /* Отправить */
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
 
-  color: #dba833;
+  color: #fff;
 }
-form {
-  margin: 10px 0;
+.logo{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
+  margin-right: 20px  ;
 }
-.dop1 {
-  width: 1040px;
+form {
   display: flex;
-  justify-content: end;
-}
-.min {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #ffffff;
+  align-items: center;
+  justify-content: center;
 }
 @media only screen and (max-width: 500px) {
-  .about{
+  .wrapper-3{
     width: 100%;
-    height: auto;
-    min-height: 400px;
+    margin: auto;
   }
-  .wrapper-about{
-    height: auto;
-    min-height: 400px;
+  .br{
+    display: none;
   }
-  .text{
-    font-size: 30px;
+  .form-p{
+    font-size: 15px;
   }
-  form{
+  .form-div{
+    height: 180px;
     flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  .dop1{
-    width: 350px;
-    justify-content: center;
-    align-items: center;
+  .in{
+    width: 45%;
+    height: 40px;
+    font-size: 15px;
   }
-  .in-btn{
-    width: 350px;
-  }
-  .min{
-    font-size: 14px;
+  .sub{
+    width: 30%;
+    height: 43px;
+    font-size: 10px;
   }
 }

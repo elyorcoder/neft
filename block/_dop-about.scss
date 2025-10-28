@@ -1,0 +1,110 @@
+.about {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-ord {
+  margin-top: 200px;
+  margin-left: 500px;
+  background-image: url(../img/big.png);
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  width: 898px;
+  height: 668px;
+  border-radius: 10px;
+  position: relative;
+}
+.b {
+  position: relative;
+  background-image: url(../img/image2.png);
+  background-size: cover;
+  display: none;
+  align-items: start;
+  justify-content: center;
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+}
+.order-2 {
+  width: 630px;
+  height: 300px;
+  background: #ffffff;
+  box-shadow: 0px 5.03805px 50.3805px rgba(0, 0, 0, 0.1);
+  border-radius: 10.6969px;
+  position: absolute;
+  left: -500px;
+  bottom: -120px;
+  display: flex;
+  align-items: start;
+  padding-left: 50px;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.or2 {
+  position: absolute;
+  top: -100px;
+  width: 90%;
+  height: 200px;
+  background: #ffffff;
+  box-shadow: 0px 5.03805px 50.3805px rgba(0, 0, 0, 0.1);
+  border-radius: 10.6969px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.h5 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40.2598px;
+  line-height: 58px;
+  /* or 144% */
+
+  color: #000000;
+}
+.ha{
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  /* or 144% */
+
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+}
+.about-p {
+  width: 600px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4187px;
+  line-height: 41px;
+  /* or 144% */
+
+  color: #828282;
+}
+.p2{
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  /* or 144% */
+
+  color: #828282;
+  width: 90%;
+  font-size: 24px;
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  .b{
+    display: flex;
+  }
+  .about-ord{
+    display: none;
+  }
+}

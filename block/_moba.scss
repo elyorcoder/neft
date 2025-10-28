@@ -1,0 +1,38 @@
+.wrapper-2 {
+  width: 100%;
+  background-color: #90e051;
+}
+.moba {
+  width: 1400px;
+  margin: 200px auto 200px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h3 {
+  width: 800px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65.1356px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+@media only screen and (max-width: 500px) {
+  .mobile {
+    display: none;
+  }
+  .moba {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .h3{
+    font-size: 30px;
+    width: 90%;
+    line-height: 50px;
+    text-align: center;
+  }
+}

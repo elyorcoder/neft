@@ -1,88 +1,114 @@
 .intro {
-  width: 1400px;
-  height: 80%;
-  margin: auto;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  margin-top: 50px;
 }
-.h1 {
-  /* Поставка нефтепродуктов в Москве и Московской области */
-  position: relative;
-  width: 800px;
-  font-family: "Inter";
+.intro-h1 {
+  width: 500px;
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
-  font-size: 55px;
-  line-height: 77px;
-  text-align: center;
+  font-size: 80px;
+  /* or 165% */
 
-  color: #fff;
-
-  margin: 0%;
-  padding: 0%;
+  color: #000000;
 }
-.p {
-  position: relative;
-  font-family: "Inter";
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.intro-p {
+  width: 570px;
+  font-family: "Rubik";
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  /* or 150% */
 
-  color: #cecece;
+  color: #000000;
 }
-.btn {
-  position: relative;
+.buttons {
+  margin-top: 50px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-btn {
   width: 200px;
-  height: 40px;
-  background: #dba833;
-  border-radius: 5px;
-  /* Заказать звонок */
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  height: 70px;
   border: none;
-  color: #ffffff;
-}
-.h2 {
-  margin-top: 150px;
-  font-family: "Inter";
+  background: #90e051;
+  border-radius: 20px;
+  font-family: "Rubik";
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 58px;
-  /* identical to box height */
-  text-align: center;
-
-  color: #ffffff;
-}
-.add {
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 49px;
+  /* or 165% */
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  &:hover {
+    border: #90e051 solid 10px;
+    background-color: #ffffff;
+    color: #90e051;
+  }
 }
-@media only screen and (max-width:500px){
+.intro-button {
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 10px solid #90e051;
+  transition: all 0.5s ease;
+  width: 150px;
+  height: 70px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29.3999px;
+  line-height: 49px;
+  /* or 165% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #90e051;
+  &:hover {
+    background-color: #90e051;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 500px) {
   .intro{
     margin-top: 100px;
+  }
+  .intro-h1{
+    width: 270px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  .intro-p{
+    width: 80%;
+    text-align: center;
+    font-size: 19;
+    margin:20px auto;
+  }
+  .buttons{
+    flex-direction: column;
     width: 100%;
-    height: auto;
   }
-  .br{
-    display: none !important;
+  .intro-btn{
+    width: 90%;
   }
-  .h1{
-    width: 300px;
-    font-size: 40px;
+  .intro-button{
+    width: 90%;
   }
-  .p{
-    font-size: 16px;
+  .right{
+    display: none;
   }
 }
